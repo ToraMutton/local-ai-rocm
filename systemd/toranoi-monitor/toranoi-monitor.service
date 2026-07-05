@@ -1,0 +1,7 @@
+[Unit]
+Description=TORANOI Service Monitor
+
+[Service]
+Type=oneshot
+ExecStart=/home/toramutton/toranoi-monitor/check_services.sh
+User=toramutton
